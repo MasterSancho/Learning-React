@@ -33,3 +33,11 @@
 + <i className='fas fa-user'></i>
 
 -> css in App.js -> main tag add className='py-3'
+
+-> bring (folder images to public folder)
+
+-> bring ( products.js to src folder )
+
+-> create ( screen folder && HomeScreen.js )
+
+=> create Product.js file
