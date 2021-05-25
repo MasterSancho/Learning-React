@@ -41,3 +41,20 @@
 -> create ( screen folder && HomeScreen.js )
 
 => create Product.js file
+
+=> ( npm i react-router-dom react-router-bootstrap )
++ in ( App.js -> import { BrowserRouter as Router, Route } from 'react-router-dom )
++ make Router root tag
++ change the way of bring in components example ->
+<Route path='/' component={HomeScreen} exact />
+
+=> create ( ProductScreen ) && bring it to ( App.js )
+
+=> change ( <a> ) tag to ( <Link> ) tag ( import { Link } from 'react-router-dom' )
+example ( <Link to={`/product/%{product._id}`}> )
+
+=> { LinkContainer } from 'react-router-bootstarp'
++ wrap line example
+<LinkContainer to='/'>
+ <Navbar.Brand>ProShop</Navbar.Brand>
+ </LinkContainer>
